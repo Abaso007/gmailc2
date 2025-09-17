@@ -8,8 +8,7 @@
      This RAT communicates Via Gmail SMTP (or u can use any other smtps as well) but Gmail SMTP is valid
      because most of the companies block unknown traffic so gmail traffic is valid and allowed everywhere.
      
-# Contact:
-    Telegram:- https://t.me/machine1337
+
 # Warning:
      1. Don't Upload Any Payloads To VirusTotal.com Bcz This tool will not work
         with Time.
